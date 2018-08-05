@@ -31,6 +31,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # A plugin for versioning Rails based RESTful APIs.
 gem 'versionist'
 
+gem 'active_model_serializers', '~> 0.10.0'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'factory_girl'
